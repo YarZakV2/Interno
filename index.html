@@ -30,14 +30,14 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container header-box">
         <a href="index.html" class="header-logo">
           <img src="./img/logo.svg" alt="logo" class="logo-img" />
         </a>
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
-              <a href="index.html" class="header-link">Home</a>
+              <a href="index.html" class="header-link active">Home</a>
             </li>
             <li class="header-item">
               <a href="#aboutus" class="header-link">About Us</a>
@@ -63,74 +63,94 @@
             The world needs innovators and problem solvers who turn challenges
             into greater opportunities.
           </p>
-          <button type="button" class="hero-btn">
-            <img src="./img/herobtn.svg" alt="button" class="hero-img" />
-            <span class="hero-span">Get Started</span>
-          </button>
+          <button type="button" class="hero-btn">Get Started</button>
         </div>
       </section>
       <section class="services">
         <div class="container">
-          <ul class="services list">
+          <ul class="services-list">
             <li class="services-item">
               <h3 class="services-title">Interior Design</h3>
-              <p class="service-description">
+              <p class="services-description">
                 Enhancing the interior to achieve a healthier environment for
                 the people using right space.
               </p>
-              <a href="#" class="services-link">View More</a>
+              <div class="services-link-container">
+                <a href="#" class="services-link">View More</a>
+                <img src="./img/servicesarrow.svg" alt="arrow" />
+              </div>
             </li>
             <li class="services-item">
               <h3 class="services-title">Furniture</h3>
-              <p class="service-description">
+              <p class="services-description">
                 Movable articles that are used to make a room or building
                 suitable for living or working.
               </p>
-              <a href="#" class="services-link">View More</a>
+              <div class="services-link-container">
+                <a href="#" class="services-link">View More</a>
+                <img src="./img/servicesarrow.svg" alt="arrow" />
+              </div>
             </li>
             <li class="services-item">
               <h3 class="services-title">Interior Design</h3>
-              <p class="service-description">
+              <p class="services-description">
                 Thin object any finished material applied over a floor structure
                 to provide a walking surface.
               </p>
-              <a href="#" class="services-link">View More</a>
+              <div class="services-link-container">
+                <a href="#" class="services-link">View More</a>
+                <img src="./img/servicesarrow.svg" alt="arrow" />
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="challenge">
-        <div class="container">
-          <h2 class="challenge-title">
-            We Tackle The Most Challenging Designs
-          </h2>
-          <p class="challenge-description">
-            The world needs innovators and problem solvers who turn challenges
-            into greater opportunities. We have an insatiable curiosity about
-            transformative trends challenging the status.
-          </p>
-          <div class="challenge-icon">
-            <img src="./img/phone.svg" alt="Phone Icon" class="phone-icon" />
+        <div class="container challenge-box">
+          <div class="challenge-content">
+            <h2 class="challenge-title">
+              We Tackle The Most Challenging Designs
+            </h2>
+            <p class="challenge-description">
+              The world needs innovators and problem solvers who turn challenges
+              into greater opportunities. We have an insatiable curiosity about
+              transformative trends challenging the status.
+            </p>
+            <div class="challenge-container">
+              <div class="challenge-icon">
+                <img
+                  src="./img/phone.svg"
+                  alt="Phone Icon"
+                  class="phone-icon"
+                />
+              </div>
+              <p class="challenge-phone">
+                012345678
+                <span class="phone-text">Call Us Anytime</span>
+              </p>
+            </div>
+            <button type="button" class="challenge-btn">
+              Get Free Estimate
+            </button>
           </div>
-          <button type="button" class="challenge-btn">
-            <img
-              src="./img/challengebtn.png"
-              alt="button"
-              class="challenge-img"
-            />
-            <span class="challenge-span">Get Free Estimate</span>
-          </button>
+
+          <img src="./img/challenge.jpg" class="challenge-img" />
         </div>
       </section>
+
       <section class="reviews">
-        <div class="container">
-          <h2 class="reviews-title">What the People Thinks About Interno</h2>
+        <div class="container reviews-box">
+          <div class="reviews-title-wrapper">
+            <h2 class="reviews-title">What the People Thinks About Interno</h2>
+          </div>
           <ul class="reviews-list">
             <li class="reviews-item">
               <div class="reviews-info">
                 <img src="./img/lisa.png" alt="lisa" class="info-img" />
-                <h3 class="info-title">Lisa Clairton</h3>
-                <p class="info-description">New York, USA</p>
+                <div class="info-text">
+                  <h3 class="info-title">Lisa Clairton</h3>
+                  <p class="info-description">New York, USA</p>
+                </div>
               </div>
               <p class="reviews-description">
                 We selected Interno interior because of rigorous design
@@ -140,8 +160,10 @@
             <li class="reviews-item">
               <div class="reviews-info">
                 <img src="./img/david.png" alt="david" class="info-img" />
-                <h3 class="info-title">David Knight</h3>
-                <p class="info-description">Sydney, Australia</p>
+                <div class="info-text">
+                  <h3 class="info-title">David Knight</h3>
+                  <p class="info-description">Sydney, Australia</p>
+                </div>
               </div>
               <p class="reviews-description">
                 The team exceeded our expectations and emerged as leaders of our
@@ -149,10 +171,12 @@
               </p>
             </li>
             <li class="reviews-item">
-              <div class="info-info">
+              <div class="reviews-info">
                 <img src="./img/lisaparis.png" alt="lisa" class="info-img" />
-                <h3 class="info-title">Lisa Clairton</h3>
-                <p class="info-description">Paris, France</p>
+                <div class="info-text">
+                  <h3 class="info-title">Lisa Clairton</h3>
+                  <p class="info-description">Paris, France</p>
+                </div>
               </div>
               <p class="reviews-description">
                 They balanced the architectural vision and the project realities
@@ -162,8 +186,9 @@
           </ul>
         </div>
       </section>
+
       <section class="showcase">
-        <div class="container">
+        <div class="container showcase-box">
           <img
             src="./img/modernhome.svg"
             alt="modern home"
@@ -189,16 +214,18 @@
       </section>
       <section class="projects">
         <div class="container">
-          <h2 class="projects-title">Recent Projects</h2>
-          <p class="projects-description">
-            With tools to make every part of your process more human and a
-            support team excited to help you, getting started with us never been
-            easier.
-          </p>
+          <div class="projects-title-wrapper">
+            <h2 class="projects-title">Recent Projects</h2>
+            <p class="projects-description">
+              With tools to make every part of your process more human and a
+              support team excited to help you, getting started with us never
+              been easier.
+            </p>
+          </div>
           <ul class="projects-list">
             <li class="projects-item">
               <img src="./img/art.jpg" alt="art" class="projects-img" />
-              <div class="content">
+              <div class="projects-content">
                 <h3 class="content-title">Winery Dry Creek Building</h3>
                 <p class="content-description">Art Modern</p>
                 <button type="button" class="project-btn">
@@ -212,7 +239,7 @@
                 alt="minimalist"
                 class="projects-img"
               />
-              <div class="content">
+              <div class="projects-content">
                 <h3 class="content-title">Creative Workplace Design</h3>
                 <p class="content-description">Minimalist</p>
                 <button type="button" class="project-btn">
@@ -222,7 +249,7 @@
             </li>
             <li class="projects-item">
               <img src="./img/modern.jpg" alt="modern" class="content-img" />
-              <div class="content">
+              <div class="projects-content">
                 <h3 class="content-title">Bedroom Interior Pot Work</h3>
                 <p class="content-description">Modern</p>
                 <button type="button" class="project-btn">
@@ -236,7 +263,7 @@
                 alt="scandinavian"
                 class="projects-img"
               />
-              <div class="content">
+              <div class="projects-content">
                 <h3 class="content-title">Light Ambience Sepia Design</h3>
                 <p class="content-description">Scandinavian</p>
                 <button type="button" class="project-btn">
@@ -357,7 +384,7 @@
             <li class="blogs-item">
               <img
                 src="./img/minimalistinteriorcabinets.jpg"
-                alt="minimalis"
+                alt="minimalist"
                 class="blogs-img"
               />
               <h3 class="blogs-subtitle">
@@ -377,10 +404,7 @@
         <div class="container">
           <h2 class="join-title">Wanna join the interno?</h2>
           <p class="join-description">Contact Us & Get a Free Consultation</p>
-          <button type="button" class="join-btn">
-            <img src="./img/internobtn.svg" alt="btn" class="join-img" />
-            <span>Connect With us</span>
-          </button>
+          <button type="button" class="join-btn">Connect With us</button>
         </div>
       </section>
     </main>
