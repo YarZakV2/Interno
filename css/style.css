@@ -21,11 +21,8 @@ header {
 }
 .container {
   width: 1220px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 .header-box {
   display: flex;
@@ -397,7 +394,7 @@ header {
 .statistics-list {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Выровнять по вертикали */
+  align-items: center;
   width: 100%;
 }
 
@@ -487,6 +484,7 @@ header {
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   text-align: left;
+  margin-top: 15px;
 }
 
 .blogs-date {
@@ -510,5 +508,117 @@ header {
 }
 
 .join {
-  padding-bottom: 80px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+.join-box {
+  border-radius: 70px;
+  background-color: var(--text-color);
+  padding-top: 100px;
+  padding-bottom: 95px;
+}
+.join-title {
+  color: var(--btn-text-color);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0.22px;
+  margin-bottom: 9px;
+}
+.join-description {
+  color: var(--btn-text-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-bottom: 31px;
+}
+.join-btn {
+  padding: 22px 67px 22px 34px;
+  border-radius: 18px;
+  background-color: var(--hover-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.22px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.footer-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-info {
+  margin-right: 83px;
+}
+
+.footer-description {
+  width: 326px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-subtitle {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  letter-spacing: 0.22px;
+  margin-bottom: 22px;
+}
+
+.footer-list {
+  margin-right: 113px;
+}
+
+.footer-item {
+  margin-bottom: 30px;
+}
+
+.footer-link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+.address-item {
+  margin-bottom: 30px;
+}
+.address-link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  display: inline-block;
+  width: 321px;
+}
+
+.footer-credits {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  border-top: 1px solid rgba(229, 229, 229, 1);
+}
+
+.credits-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 35px;
+  margin-bottom: 36px;
+}
+
+.footer-span {
+  color: var(--hover-color);
 }
