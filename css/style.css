@@ -243,12 +243,12 @@ header {
 }
 .reviews-title-wrapper {
   text-align: center;
+  padding-top: 103px;
+  padding-bottom: 47px;
 }
 
 .reviews-title {
   width: 479px;
-  margin-top: 103px;
-  margin-bottom: 47px;
   font-size: 45px;
   font-weight: 400;
   line-height: 58.5px;
@@ -315,8 +315,7 @@ header {
 }
 .showcase-box {
   display: flex;
-  justify-content: space-between;
-  padding: 0 55px 0 48px;
+  justify-content: space-around;
 }
 
 .projects {
@@ -325,6 +324,7 @@ header {
 
 .projects-title-wrapper {
   text-align: center;
+  padding-top: 15px;
 }
 .projects-title {
   width: 331px;
@@ -334,7 +334,6 @@ header {
   line-height: 62.4px;
   letter-spacing: 0.22px;
   display: inline-block;
-  margin-top: 15px;
   margin-bottom: 20px;
 }
 .projects-description {
@@ -353,6 +352,12 @@ header {
   margin-top: 70px;
   column-gap: 20px;
   row-gap: 60px;
+}
+.project-item {
+  flex-basis: calc((100% - 20px) / 2);
+}
+.project-img {
+  width: 100%;
 }
 
 .projects-content {
@@ -437,10 +442,12 @@ header {
   padding-bottom: 100px;
   text-align: center;
 }
-
+.blogs-title-wrapper {
+  padding-top: 15px;
+  padding-bottom: 70px;
+}
 .blogs-title {
   width: 100%;
-  margin-top: 15px;
   margin-bottom: 21px;
   font-size: 48px;
   font-weight: 400;
@@ -455,7 +462,6 @@ header {
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.22px;
-  margin-bottom: 70px;
 }
 
 .blogs-list {
@@ -568,6 +574,9 @@ header {
   display: flex;
   gap: 40px;
 }
+.footer-column {
+  margin-right: 113px;
+}
 
 .footer-subtitle {
   font-size: 25px;
@@ -575,10 +584,6 @@ header {
   line-height: 37.5px;
   letter-spacing: 0.22px;
   margin-bottom: 22px;
-}
-
-.footer-list {
-  margin-right: 113px;
 }
 
 .footer-item {
