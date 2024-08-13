@@ -23,6 +23,9 @@ header {
   width: 1220px;
   margin-left: auto;
   margin-right: auto;
+  outline: 1px solid red;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .header-box {
   display: flex;
@@ -353,6 +356,9 @@ header {
   column-gap: 20px;
   row-gap: 60px;
 }
+.projects-item {
+  flex-basis: calc((100% - 20px) / 2);
+}
 .project-img {
   width: 100%;
 }
@@ -365,14 +371,12 @@ header {
 }
 
 .content-title {
-  width: 325px;
   font-size: 24px;
   font-weight: 400;
   line-height: 37.5px;
   letter-spacing: 0.22px;
 }
 .content-description {
-  width: 114px;
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
