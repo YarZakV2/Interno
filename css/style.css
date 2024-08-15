@@ -190,13 +190,13 @@ header {
 .challenge-icon {
   border-radius: 100%;
   background-color: var(--background-color);
-  width: 93px;
-  height: 93px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.challenge-icon-link {
+  padding: 30px;
+}
 .phone-icon {
   width: 34px;
   height: 34px;
