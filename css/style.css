@@ -194,15 +194,22 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .challenge-icon-link {
   padding: 30px;
 }
+
 .phone-icon {
   width: 34px;
   height: 34px;
 }
 
-.challenge-phone {
+.phone-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-link {
   width: 138px;
   font-size: 24px;
   font-weight: 400;
@@ -211,7 +218,7 @@ header {
   margin-bottom: 11px;
 }
 
-.phone-text {
+.phone-text-link {
   white-space: nowrap;
   font-size: 22px;
 }
@@ -321,15 +328,13 @@ header {
 .projects {
   padding-bottom: 80px;
 }
-
 .projects-title {
-  width: 331px;
   text-align: center;
   font-size: 47px;
   font-weight: 400;
   line-height: 62.4px;
   letter-spacing: 0.22px;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 20px;
 }
 .projects-description {
@@ -584,7 +589,7 @@ header {
   margin-bottom: 22px;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -609,7 +614,7 @@ header {
 .footer-credits {
   width: 100%;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 110px;
   border-top: 1px solid rgba(229, 229, 229, 1);
 }
 
